@@ -1,15 +1,15 @@
 //
-//  IOS_sampleTests.swift
-//  IOS_sampleTests
+//  _Tests.swift
+//  3Tests
 //
-//  Created by 吉田れい on 2019/05/24.
+//  Created by 吉田れい on 2019/06/12.
 //  Copyright © 2019 吉田れい. All rights reserved.
 //
 
 import XCTest
-@testable import IOS_sample
+@testable import _
 
-class IOS_sampleTests: XCTestCase {
+class _Tests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
