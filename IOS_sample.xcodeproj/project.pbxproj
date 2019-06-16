@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		192429D22296FE7E00FC874E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192429D12296FE7E00FC874E /* AppDelegate.swift */; };
-		192429D42296FE7E00FC874E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 192429D32296FE7E00FC874E /* GameScene.sks */; };
 		192429D62296FE7E00FC874E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 192429D52296FE7E00FC874E /* Actions.sks */; };
 		192429D82296FE7E00FC874E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192429D72296FE7E00FC874E /* GameScene.swift */; };
 		192429DA2296FE7E00FC874E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192429D92296FE7E00FC874E /* GameViewController.swift */; };
@@ -17,6 +16,7 @@
 		192429E22296FE8000FC874E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192429E02296FE8000FC874E /* LaunchScreen.storyboard */; };
 		192429ED2296FE8000FC874E /* IOS_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192429EC2296FE8000FC874E /* IOS_sampleTests.swift */; };
 		192429F82296FE8100FC874E /* IOS_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192429F72296FE8100FC874E /* IOS_sampleUITests.swift */; };
+		19242A052296FF6300FC874E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 19242A072296FF6300FC874E /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		192429CE2296FE7E00FC874E /* IOS_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		192429D12296FE7E00FC874E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		192429D32296FE7E00FC874E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		192429D52296FE7E00FC874E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		192429D72296FE7E00FC874E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		192429D92296FE7E00FC874E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		192429F32296FE8100FC874E /* IOS_sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_sampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		192429F72296FE8100FC874E /* IOS_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_sampleUITests.swift; sourceTree = "<group>"; };
 		192429F92296FE8100FC874E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19242A062296FF6300FC874E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Base; path = Base.lproj/GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				192429D12296FE7E00FC874E /* AppDelegate.swift */,
-				192429D32296FE7E00FC874E /* GameScene.sks */,
+				19242A072296FF6300FC874E /* GameScene.sks */,
 				192429D52296FE7E00FC874E /* Actions.sks */,
 				192429D72296FE7E00FC874E /* GameScene.swift */,
 				192429D92296FE7E00FC874E /* GameViewController.swift */,
@@ -239,7 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				192429DD2296FE7E00FC874E /* Main.storyboard in Resources */,
-				192429D42296FE7E00FC874E /* GameScene.sks in Resources */,
+				19242A052296FF6300FC874E /* GameScene.sks in Resources */,
 				192429DF2296FE8000FC874E /* Assets.xcassets in Resources */,
 				192429E22296FE8000FC874E /* LaunchScreen.storyboard in Resources */,
 				192429D62296FE7E00FC874E /* Actions.sks in Resources */,
@@ -319,6 +319,14 @@
 				192429E12296FE8000FC874E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		19242A072296FF6300FC874E /* GameScene.sks */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19242A062296FF6300FC874E /* Base */,
+			);
+			name = GameScene.sks;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
